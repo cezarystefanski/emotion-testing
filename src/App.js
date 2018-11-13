@@ -35,3 +35,14 @@ class App extends Component {
 }
 
 export default App;
+
+// https://github.com/Khan/aphrodite
+// https://github.com/airbnb/react-with-styles
+// https://github.com/airbnb/react-with-styles-interface-aphrodite/tree/master/src
+// https://github.com/emotion-js/emotion
+// https://emotion.sh/docs/media-queries
+// https://github.com/emotion-js/facepaint#emotion
+// https://emotion.sh/docs/jest-emotion
+// https://github.com/paypal/glamorous
+// https://polished.js.org/docs/
+// https://github.com/MicheleBertoli/css-in-js
