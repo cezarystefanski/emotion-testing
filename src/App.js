@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import { Box } from './Box/Box'
+import { Box } from './Box/Box';
+import { BoxWithTheme } from './Box/BoxWithTheme';
 import { ExampleTheme } from './Theme/Theme';
 
 import logo from './logo.svg';
@@ -25,6 +26,7 @@ class App extends Component {
               Learn React
             </a>
             <Box isSmall/>
+            {/* <BoxWithTheme isSmall/> */}
           </header>
         </div>
       </ExampleTheme>

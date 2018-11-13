@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'emotion-theming';
 
-const theme = {
+export const themeTemplate = {
   colors: {
     black: '#000',
     darkgrey: '#333',
@@ -24,7 +24,7 @@ const theme = {
 };
 
 export const ExampleTheme = ({ children }) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={themeTemplate}>
     {children}
   </ThemeProvider>
 );
